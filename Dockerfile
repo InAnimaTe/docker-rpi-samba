@@ -1,10 +1,9 @@
 #Samba share for Raspberry Pi
-FROM resin/rpi-raspbian:wheezy
+FROM sdhibit/rpi-raspbian
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update && apt-get upgrade -y --no-install-recommends
-RUN apt-get install -y --no-install-recommends samba-common-bin samba
+RUN apt-get update && apt-get install -y --no-install-recommends samba-common-bin samba
 
 ADD run.sh /run.sh
 RUN chmod u+x /run.sh
