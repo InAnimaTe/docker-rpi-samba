@@ -2,7 +2,7 @@
 
 Docker container that creates a SMB share.
 
-Dockerfile: https://bitbucket.org/trnak/rpi-samba
+Dockerfile: https://bitbucket.org/trnape/rpi-samba
 
 
 ## Running
