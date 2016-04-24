@@ -1,5 +1,5 @@
 #Samba share for Raspberry Pi
-FROM sdhibit/rpi-raspbian
+FROM resin/rpi-raspbian:jessie
 
 ENV DEBIAN_FRONTEND noninteractive
 
